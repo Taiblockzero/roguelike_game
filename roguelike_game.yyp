@@ -19,12 +19,12 @@
   },
   "name":"roguelike_game",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomMain","path":"rooms/RoomMain/RoomMain.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomMain","path":"rooms/RoomMain/RoomMain.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
