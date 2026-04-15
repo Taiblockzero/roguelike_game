@@ -19,7 +19,13 @@
   },
   "name":"roguelike_game",
   "resources":[
+<<<<<<< Updated upstream
     {"id":{"name":"RoomMain","path":"rooms/RoomMain/RoomMain.yy",},},
+=======
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Dungeon_Tileset","path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},},
+    {"id":{"name":"HAS_Dungeon","path":"sprites/HAS_Dungeon/HAS_Dungeon.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
