@@ -24,6 +24,8 @@
   },
   "name":"roguelike_game",
   "resources":[
+    {"id":{"name":"Col_Obj","path":"objects/Col_Obj/Col_Obj.yy",},},
+    {"id":{"name":"Controller_Obj","path":"objects/Controller_Obj/Controller_Obj.yy",},},
     {"id":{"name":"Player_Obj","path":"objects/Player_Obj/Player_Obj.yy",},},
     {"id":{"name":"Floor_One","path":"rooms/Floor_One/Floor_One.yy",},},
     {"id":{"name":"background_tile","path":"sprites/background_tile/background_tile.yy",},},
