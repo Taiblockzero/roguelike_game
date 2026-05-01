@@ -1,59 +1,42 @@
 {
-  "$GMProject": "v1",
-  "%Name": "roguelike_game",
-  "AudioGroups": [
-    {
-      "$GMAudioGroup": "v1",
-      "%Name": "audiogroup_default",
-      "exportDir": "",
-      "name": "audiogroup_default",
-      "resourceType": "GMAudioGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
+  "$GMProject":"v1",
+  "%Name":"roguelike_game",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default"
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 0,
-  "Folders": [],
-  "ForcedPrefabProjectReferences": [],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2024.14.4.222"
+  "defaultScriptType":0,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tilesets","folderPath":"folders/Tilesets.yy","name":"Tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
   },
-  "name": "roguelike_game",
-  "resources": [
-    {"id": {"name": "RoomMain", "path": "rooms/RoomMain/RoomMain.yy"}},
-    {"id": {"name": "Dungeon_Tileset", "path": "sprites/Dungeon_Tileset/Dungeon_Tileset.yy"}},
-    {"id": {"name": "HAS_Dungeon", "path": "sprites/HAS_Dungeon/HAS_Dungeon.yy"}}
+  "name":"roguelike_game",
+  "resources":[
+    {"id":{"name":"Player_Obj","path":"objects/Player_Obj/Player_Obj.yy",},},
+    {"id":{"name":"Floor_One","path":"rooms/Floor_One/Floor_One.yy",},},
+    {"id":{"name":"Priest_Knife_Sprite","path":"sprites/Priest_Knife_Sprite/Priest_Knife_Sprite.yy",},},
+    {"id":{"name":"Tileset","path":"sprites/Tileset/Tileset.yy",},},
+    {"id":{"name":"Dungeon_tileset","path":"tilesets/Dungeon_tileset/Dungeon_tileset.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    {"roomId": {"name": "RoomMain", "path": "rooms/RoomMain/RoomMain.yy"}}
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Floor_One","path":"rooms/Floor_One/Floor_One.yy",},},
   ],
-  "templateType": "game",
-  "TextureGroups": [
-    {
-      "$GMTextureGroup": "",
-      "%Name": "Default",
-      "autocrop": true,
-      "border": 2,
-      "compressFormat": "bz2",
-      "customOptions": "",
-      "directory": "",
-      "groupParent": null,
-      "isScaled": true,
-      "loadType": "default",
-      "mipsToGenerate": 0,
-      "name": "Default",
-      "resourceType": "GMTextureGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
-  ]
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
 }
